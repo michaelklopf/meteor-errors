@@ -1,7 +1,8 @@
 Package.describe({
   name: "michaelklopf:errors",
   summary: "A pattern to display application errors to the user",
-  version: "1.0.0"
+  version: "1.0.1",
+  git: "https://github.com/michaelklopf/meteor-errors.git"
 });
 
 Package.onUse(function (api, where) {

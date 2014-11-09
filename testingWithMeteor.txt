@@ -1,0 +1,14 @@
+// Create package project
+meteor create --package michaelklopf:errors
+
+// Create package for the first time in Atmosphere
+meteor publish --create
+
+// Publish updates to Atmosphere
+meteor publish
+
+// Testing the package
+meteor test-packages ./
+
+// Found this helpful vid
+https://www.eventedmind.com/feed/meteor-testing-packages-with-tinytest
